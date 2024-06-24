@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object-Finder-Web-App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <center>
+        <h1 class="btn btn-warning">Object Detection</h1>
+        <p class="orange-bg">Bring an object near the camera and show it. The model will recognize it and give the object name highlighted.</p>
+        <button onclick="Start();" class="btn btn-success" id="start_model">Start</button>
+        <br>
+        <input type="text" id="input" name="input_box" placeholder="Type object name">
+        <br>
+        <div id="canvas-container"></div>
+        <p id="status" class="red-bg">Status:</p>
+        <p id="number_of_objects_detected" class="green-bg">Number of Objects Detected:</p>
+        <p id="status_objects"></p>
+    </center>
+    <script src="main.js"></script>
+</body>
+</html>

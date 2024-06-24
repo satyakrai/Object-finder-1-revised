@@ -1,0 +1,48 @@
+body {
+    background-image: url('Background image.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.heading {
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+}
+
+#start_model, p {
+    font-size: 18px;
+}
+
+canvas {
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 10px;
+}
+
+.orange-bg {
+    background-color: orange;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.red-bg {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.green-bg {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#canvas-container {
+    margin-top: 20px;
+}
+
+#start_model {
+    margin-top: 20px;
+}
